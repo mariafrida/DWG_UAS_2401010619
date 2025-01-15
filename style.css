@@ -1,15 +1,12 @@
-
-
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #ffffff;
+    background-color: #df3131;
     color: #333;
 }
 
 .home {
-    background-color: #e6dcdc;
+    background-color: #f3acac;
     padding: 50px 0;
     width: 100%; 
     top: 0; 
@@ -41,7 +38,7 @@ body {
 }
 
 .listproduk {
-    background-color: #bd3838;
+    background-color: #e77777;
     padding: 50px 0;
 }
 
@@ -57,7 +54,7 @@ body {
 
 .listproduk .text-center {
     font-size: 28px;
-    color: hsl(0, 100%, 98%);
+    color: #333;
 }
 
 .listproduk .row-cols-1 {
@@ -70,7 +67,7 @@ body {
 
 #contact {
     padding: 50px 0;
-    background-color: #f7f7f7;
+    background-color: #fca5a5;
 }
 
 #contact .container {
@@ -97,8 +94,8 @@ body {
 }
 
 #contact button {
-    background-color: #5ae8d5;
-    color: rgb(167, 242, 245);
+    background-color: #e86c5a;
+    color: white;
     padding: 10px 20px;
     font-size: 16px;
     border: none;
@@ -111,7 +108,7 @@ body {
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: #640000;
     padding: 30px 0;
 }
 
@@ -124,7 +121,7 @@ footer .contact-icons {
 }
 
 footer .contact-icons a {
-    color: #8d1111;
+    color: #fff;
     font-size: 24px;
     margin: 0 10px;
     text-decoration: none;
@@ -135,13 +132,13 @@ footer .contact-icons a:hover {
 }
 
 footer .tx-muted {
-    background-color: #faf7f7;
+    background-color: #222;
     color: #aaa;
     padding: 10px 0;
 }
 
 footer .tx-muted hr {
-    border-color: #ee9494;
+    border-color: #444;
 }
 
 footer .float-right {
@@ -153,7 +150,7 @@ footer .copyright {
     color: #aaa;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
     .home .container {
         flex-direction: column;
         text-align: center;
@@ -173,5 +170,6 @@ footer .copyright {
         padding: 10px;
     }
 }
-
-
+html {
+    scroll-behavior: smooth;
+}
